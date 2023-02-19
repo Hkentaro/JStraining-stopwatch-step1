@@ -1,0 +1,61 @@
+.title{
+    text-align: center;
+    background-color: cadetblue;
+}
+
+#stopWatchPane1 {
+    margin: 0 auto;
+    width: 10em;
+    cursor: pointer;
+}
+
+.display {
+    font-weight: bold;
+    text-align: right;
+    height: 1.5em;
+    margin-bottom: 0.2em;
+    padding: 1em;
+    color: lightblue;
+    background-color: black;
+    width: 8em;
+}
+
+.startButton  {
+    background-color: blanchedalmond;
+    width: 5em;
+}
+
+.startButton:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.stopButton {
+    background-color: rgb(251, 107, 107);
+    width: 5em;
+}
+
+.stopButton:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.clearButton {
+    background-color: cadetblue;
+    width: 5em;
+}
+
+.clearButton:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.actions {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.message{
+    text-align: center;
+    border-bottom: 1px solid lightblue;
+}
